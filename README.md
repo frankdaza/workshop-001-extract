@@ -3,11 +3,6 @@ Maestría en Inteligencia Artificial y Ciencia de Datos, clase ETL - Workshop -0
 
 ## Siga los siguientes pasos antes de ejecutar el notebook (Mac OS X - M1)
 
-#### 1. Crear un ambiente de Python:
-```bash
-$ python3 -m venv venv
-```
-
 
 #### 1. Crear un ambiente de Python:
 ```bash
@@ -29,14 +24,14 @@ $ pip install -r requirements.txt
 $ cp .env.example .env
 ```
 
-#### 5. Levantar la base de datos local PostgreSQL (puerto: 5433):
+#### 5. Levantar la base de datos local PostgreSQL:
 ```bash
 $ docker compose up -d
 ```
 
 ## Opcional
 
-#### 6. Apagar/parar la base de datos local PostgreSQL (puerto: 5433):
+#### 6. Apagar/parar la base de datos local PostgreSQL:
 ```bash
 $ docker compose down
 ```
