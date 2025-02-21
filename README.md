@@ -1,42 +1,42 @@
 # workshop-001-extract
 Maestría en Inteligencia Artificial y Ciencia de Datos, clase ETL - Workshop -001: Extract
 
-## Siga los siguientes pasos antes de ejecutar el notebook (Mac OS X - M1)
+## Follow these steps before running your notebook (Mac OS X - M1)
 
 
-#### 1. Crear un ambiente de Python:
+#### 1. Creating a Python Environment:
 ```bash
 $ python3 -m venv venv
 ```
 
-#### 2. Activar el ambiente de Python:
+#### 2. Activate the Python environment:
 ```bash
 $ source venv/bin/activate
 ```
 
-#### 3. Instalar las dependencias del archivo requirenments.txt:
+#### 3. Install dependencies from requirements.txt file:
 ```bash
 $ pip install -r requirements.txt
 ```
 
-#### 4. Haga una copia del archivo .env.example a .env y, agregue las configuraciones necesarias:
+#### 4. Make a copy of the .env.example file to .env and add the necessary settings:
 ```bash
 $ cp .env.example .env
 ```
 
-#### 5. Levantar la base de datos local PostgreSQL:
+#### 5. Raise the local PostgreSQL database:
 ```bash
 $ docker compose up -d
 ```
 
-## Opcional
+## Optional
 
-#### 6. Apagar/parar la base de datos local PostgreSQL:
+#### 6. Shutdown/stop local PostgreSQL database:
 ```bash
 $ docker compose down
 ```
 
-#### 7. Desactivar el ambiente de Python:
+#### 7. Disable Python environment:
 ```bash
 $ deactivate
 ```
