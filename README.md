@@ -8,6 +8,12 @@ Maestría en Inteligencia Artificial y Ciencia de Datos, clase ETL - Workshop -0
 $ python3 -m venv venv
 ```
 
+
+#### 1. Crear un ambiente de Python:
+```bash
+$ python3 -m venv venv
+```
+
 #### 2. Activar el ambiente de Python:
 ```bash
 $ source venv/bin/activate
@@ -18,19 +24,24 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-#### 4. Levantar la base de datos local PostgreSQL (puerto: 5433):
+#### 4. Haga una copia del archivo .env.example a .env y, agregue las configuraciones necesarias:
+```bash
+$ cp .env.example .env
+```
+
+#### 5. Levantar la base de datos local PostgreSQL (puerto: 5433):
 ```bash
 $ docker compose up -d
 ```
 
 ## Opcional
 
-#### 5. Apagar/parar la base de datos local PostgreSQL (puerto: 5433):
+#### 6. Apagar/parar la base de datos local PostgreSQL (puerto: 5433):
 ```bash
 $ docker compose down
 ```
 
-#### 6. Desactivar el ambiente de Python:
+#### 7. Desactivar el ambiente de Python:
 ```bash
 $ deactivate
 ```
